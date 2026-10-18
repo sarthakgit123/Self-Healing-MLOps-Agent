@@ -1,0 +1,14 @@
+# data and environments
+data/
+.venv/
+*.zip
+new-york-city-taxi-fare-prediction/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# mlflow
+mlruns/
+mlartifacts/
