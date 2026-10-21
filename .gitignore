@@ -1,14 +1,26 @@
-# data and environments
-data/
-.venv/
-*.zip
-new-york-city-taxi-fare-prediction/
+# Local data and secrets
 
-# python
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments and Python caches
+.venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 .ipynb_checkpoints/
 
-# mlflow
+# Local model outputs and temporary files
+models/*
+!models/.gitkeep
 mlruns/
 mlartifacts/
+*.tmp
+*.log
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/

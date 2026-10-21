@@ -1,5 +1,12 @@
-pandas==3.0.6
 numpy==2.5.4
-pyarrow==26.0.0
+pandas==3.0.6
+pyarrow==25.0.1
 matplotlib==3.11.2
 jupyter==1.1.1
+scikit-learn==1.9.1
+seaborn==0.13.2
+joblib==1.6.0
+xgboost==3.4.1
+pytest==9.1.1
+langgraph>=0.2.0,<2.0
+mlflow==3.16.1
