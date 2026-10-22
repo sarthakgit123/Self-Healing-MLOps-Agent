@@ -11,6 +11,7 @@ MODELS_DIR = PROJECT_ROOT / "models"
 MODEL_PATH = MODELS_DIR / "taxi_fare_model.joblib"
 FEATURES_PATH = MODELS_DIR / "model_features.json"
 METRICS_PATH = MODELS_DIR / "metrics.json"
+PREDICTIONS_DB_PATH = PROJECT_ROOT / "data" / "predictions.sqlite3"
 SAMPLE_SIZE = 300_000
 RANDOM_SEED = 42
 VALIDATION_FRACTION = 0.20
